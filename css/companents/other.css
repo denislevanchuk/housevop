@@ -1,0 +1,12 @@
+.facts {
+  max-width: 100%;
+  width: 794px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.facts__item {
+  width: 100%;
+}
