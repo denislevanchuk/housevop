@@ -1,12 +1,23 @@
 .facts {
-  max-width: 100%;
   width: 794px;
+  max-width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-flow: row nowrap;
+  margin: auto;
 }
 
 .facts__item {
   width: 100%;
+  text-align: center;
+}
+
+.facts__item-icon:before {
+  font-size: 80px;
+  color: #d4c17f;
+}
+
+.facts__item-title {
+  padding-top: 53px;
 }
